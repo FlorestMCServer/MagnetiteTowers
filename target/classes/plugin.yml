@@ -1,0 +1,21 @@
+name: MagnetiteTowers
+version: 1.0.0
+main: ru.florestdev.magnetiteTowers.MagnetitePlugin
+api-version: '1.21'
+folia-supported: true
+author: Claude
+description: Вышки на магнетите, передающие редстоун-сигнал между собой по каналам
+
+commands:
+  magnetite:
+    description: Управление магнетитовыми вышками
+    usage: /magnetite <give|info|list> ...
+    permission: magnetite.use
+
+permissions:
+  magnetite.use:
+    description: Базовое использование команды /magnetite
+    default: true
+  magnetite.give:
+    description: Выдача магнетитовых блоков
+    default: op
