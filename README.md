@@ -13,6 +13,7 @@ MIT License
 		</repository>
 	</repositories>
 ```
+```
 <dependency>
 	    <groupId>com.github.FlorestMCServer</groupId>
 	    <artifactId>MagnetiteTowers</artifactId>
